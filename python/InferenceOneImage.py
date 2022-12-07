@@ -63,6 +63,7 @@ if __name__ == '__main__':
     classname = load_classname()
     
     #TCP Server (수신)
+    
     HOST = '127.0.0.1' #호스트 주소 127.0.0.1
     PORT = 9999 #포트 번호 9999
 
@@ -82,15 +83,11 @@ if __name__ == '__main__':
     imgdata = base64.b64decode(data_base64)
     dataBytesIO = io.BytesIO(imgdata)
     image = Image.open(dataBytesIO) #image : png format의 img파일
-    #print(type(image))
-    #print(image)
-    #plt.imshow(image)
-    #plt.show()
-    
+    image.save("mydraw/sample.png",'png')
     # 이미지 불러오기
-    #singleImagePATH = "mydraw/eye.png"
-    #gray = cv2.imread(singleImagePATH, cv2.IMREAD_GRAYSCALE)
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    singleImagePATH = "mydraw/sample.png"
+    gray = cv2.imread(singleImagePATH, cv2.IMREAD_GRAYSCALE)
+    #gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     resizeImage = cv2.resize(gray, (28, 28))
     # convert numpy
     transform = np.array(resizeImage)
