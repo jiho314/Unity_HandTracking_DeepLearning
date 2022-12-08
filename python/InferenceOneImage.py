@@ -22,7 +22,7 @@ import socket
 import base64
 import io
 from PIL import Image
-
+import time
 
 
 def loadCnnModel():
@@ -77,7 +77,7 @@ if __name__ == '__main__':
     data = connectionSocket.recv(int(len_data.decode("utf-8"))) #image data 수신받음
     data_base64 = data.decode("utf-8") #data decoding
     print("image received")
-    # server_socket.close() #소켓 닫기
+    server_socket.close() #소켓 닫기
 
     #data_base64 : base64 format의 png파일
     imgdata = base64.b64decode(data_base64)
@@ -99,7 +99,21 @@ if __name__ == '__main__':
     print(classname[result])
     
     # sending result
-    ans = classname[result]
-    server_socket.sendall(ans.encode("UTF-8")) # Converting string to Byte, and sending it to C#
-    print("Answer sent!")
-    server_socket.close() #소켓 닫기
+    
+    #while True:
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+    sock.connect((HOST, PORT))
+    time.sleep(0.5) #sleep 0.5 sec
+    # 문자열을 전송하고자 함
+    message = classname[result]
+    # message 전송, str -> byte로 인코딩
+    sock.sendall(message.encode("UTF-8"))
+    # 진행 상황 체크용
+    print('Message sent!:', classname[result])
+    sock.close()
+    
+    
+    #ans = classname[result]
+    #server_socket.sendall(ans.encode("UTF-8")) # Converting string to Byte, and sending it to C#
+    #print("Answer sent!")
+    #server_socket.close() #소켓 닫기
