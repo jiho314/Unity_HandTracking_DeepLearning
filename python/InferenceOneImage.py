@@ -22,7 +22,7 @@ import socket
 import base64
 import io
 from PIL import Image
-
+import time
 
 
 def loadCnnModel():
@@ -56,7 +56,7 @@ def PredictSingleImage(net, data):
     return result
 
 if __name__ == '__main__':
-    os.chdir('C:/Users/USER/Desktop/project/unity_hand/Unity_HandTracking_DeepLearning/python')
+    os.chdir('C:/Users/USER/Desktop/project/unity_hand/Unity_HandTracking_DeepLearning/python') 
     # Load model
     net = loadCnnModel()
     # Load classname
@@ -64,11 +64,11 @@ if __name__ == '__main__':
     
     #TCP Server (수신)
     
-    HOST = '127.0.0.1' #호스트 주소 127.0.0.1
-    PORT = 9999 #포트 번호 9999
+    host = '127.0.0.1' #호스트 주소 127.0.0.1
+    port = 9999 #포트 번호 9999
 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #IPv4프로토콜, TCP소켓 사용하여 소켓 생성
-    server_socket.bind((HOST, PORT))
+    server_socket.bind((host, port))
     server_socket.listen(1)
     print('waiting')
     connectionSocket, addr = server_socket.accept()
@@ -77,7 +77,7 @@ if __name__ == '__main__':
     data = connectionSocket.recv(int(len_data.decode("utf-8"))) #image data 수신받음
     data_base64 = data.decode("utf-8") #data decoding
     print("image received")
-    # server_socket.close() #소켓 닫기
+    server_socket.close() #소켓 닫기
 
     #data_base64 : base64 format의 png파일
     imgdata = base64.b64decode(data_base64)
@@ -88,7 +88,8 @@ if __name__ == '__main__':
     singleImagePATH = "mydraw/sample.png"
     gray = cv2.imread(singleImagePATH, cv2.IMREAD_GRAYSCALE)
     #gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    resizeImage = cv2.resize(gray, (28, 28))
+    cropImage = gray[120:800, 250:930]
+    resizeImage = cv2.resize(cropImage, (28, 28))
     # convert numpy
     transform = np.array(resizeImage)
     # 색 반전
@@ -99,7 +100,15 @@ if __name__ == '__main__':
     print(classname[result])
     
     # sending result
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  
+    # 지정한 host, port 이용하여 서버에 접속
+    sock.connect((host, port))
+    
+    # while True:
+    # time.sleep(0.5) #sleep 0.5 sec
     ans = classname[result]
-    server_socket.sendall(ans.encode("UTF-8")) # Converting string to Byte, and sending it to C#
+    sock.sendall(ans.encode("UTF-8")) # Converting string to Byte, and sending it to C#
     print("Answer sent!")
-    server_socket.close() #소켓 닫기
+    # time.sleep(0.5)
+    sock.close() #소켓 닫기
+    
