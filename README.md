@@ -18,10 +18,9 @@
 ## How to run
 
 ## Unity demo scenes
-|Scene name|Scene|
+|Scene name|Scene||
 |:---:|:---:|
-|Main|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255480-64118f70-3741-41d5-a52f-b0041259606e.png">|
-|Main|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255542-921e5797-7137-47ed-9618-b318d58c2d47.png">|
+|Main|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255480-64118f70-3741-41d5-a52f-b0041259606e.png">| <img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255542-921e5797-7137-47ed-9618-b318d58c2d47.png">|
 |Room|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255601-4e387590-e1f8-455c-94dc-29131ae1784c.png">|
 |Drawing|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255662-214d6acc-f5c7-4802-b2a5-122d921e400e.png">|
 
