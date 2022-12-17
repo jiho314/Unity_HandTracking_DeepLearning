@@ -9,8 +9,9 @@
 - Additionally updated without ignore(22.12.16)
 
 # About project
-|Scene name|Scene|
-
+|1|2|3|4|5|6|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|![1번](https://user-images.githubusercontent.com/61443621/208257091-b3247d4c-fa82-4f99-bde1-62e9159f401a.gif)|![2번](https://user-images.githubusercontent.com/61443621/208257064-46ec52fb-4962-4eda-af6b-b8d73d941f16.gif)|![3번](https://user-images.githubusercontent.com/61443621/208257074-f34738aa-5333-4f46-8070-55abe5f8d569.gif)|![4번](https://user-images.githubusercontent.com/61443621/208257081-60e200be-d45c-4ffd-86f3-b9182e37a38c.gif)|![5번](https://user-images.githubusercontent.com/61443621/208257085-b6eeb8fb-6b8e-4d36-afe7-07d03cbbd346.gif)|![6번](https://user-images.githubusercontent.com/61443621/208257088-ca8b695e-1c34-43eb-95b5-a85a6b05250b.gif)|
 * This project is a  **`Unity3D Project`** <br>
 * You can draw pictures using certain hand gestures. <br>
 * A trained deep learning model will tell you what your drawing is.
