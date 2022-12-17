@@ -16,6 +16,17 @@
 
 # Unity
 ## How to run
+1. First, ensure you have Git LFS
+   ```
+git lfs install
+      
+    ```
+2. Then, clone this repo
+   ```
+git clone https://github.com/jiho-00/Unity_HandTracking_DeepLearning
+      
+    ```
+3. All of project files are in unity/Assets. This folder includes all scripts and assets to run the project excluding python files.
 
 ## Unity demo scenes
 |Scene name|Scene|
@@ -27,6 +38,8 @@
 
 
 # Python
+## Dataset
+
 ## How to run
 1. Preparing your datasets
     ```bash
@@ -35,12 +48,16 @@
       │   ├── 30categories.txt
       
     ```
-2. Main Training
+2. Making train/test datasets
+   ```
+   python DataUtils.download_data.py
+   ```
+3. Main Training
    ```
    python main.py
    ```
 
-3. Inference & Socket communication
+4. Inference & Socket communication
    ```
    python InferenceOneImage.py
    ```
