@@ -9,6 +9,8 @@
 - Additionally updated without ignore(22.12.16)
 
 # About project
+|Scene name|Scene|
+
 * This project is a  **`Unity3D Project`** <br>
 * You can draw pictures using certain hand gestures. <br>
 * A trained deep learning model will tell you what your drawing is.
@@ -16,11 +18,11 @@
 
 # Unity
 ## How to run
-1. First, ensure you have Git LFS
+1. First, ensure you have Git LFS.
    ```
    git lfs install  
    ```
-2. Then, clone this repo
+2. Then, clone this repo.
    ```
    git clone https://github.com/jiho-00/Unity_HandTracking_DeepLearning   
    ```
@@ -37,7 +39,8 @@
 
 # Python
 ## Dataset
-
+* Google quickdraw dataset
+   * https://quickdraw.withgoogle.com/data/
 ## How to run
 1. Preparing your datasets
     ```bash
