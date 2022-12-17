@@ -74,6 +74,7 @@ public class hand : MonoBehaviour
     }
     catch{
         pen_state = 1;
+        
     } 
         
 
@@ -218,7 +219,7 @@ public class hand : MonoBehaviour
                 if (pen_state == 1){
 
                     if (pen_black.Find("Lead").gameObject.activeSelf == false){
-
+                        pen_black.Find("Cap").gameObject.SetActive(true);
                         pen_black.Find("Lead").gameObject.SetActive(true);
                         pen_black.Find("Body").gameObject.SetActive(true);
                         pen_black.Find("Tip").gameObject.SetActive(true);
@@ -229,6 +230,7 @@ public class hand : MonoBehaviour
             else
             {
                 if(pen_black.Find("Lead").gameObject.activeSelf == true){    
+                    pen_black.Find("Cap").gameObject.SetActive(false);
                     pen_black.Find("Lead").gameObject.SetActive(false);
                     pen_black.Find("Body").gameObject.SetActive(false);
                     pen_black.Find("Tip").gameObject.SetActive(false);

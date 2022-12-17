@@ -8,12 +8,14 @@ public class draw2 : MonoBehaviour
     public int clear_trigger;
     public TrailRenderer trail;
     private hand Hand_Control;
+    GameManager GameManager;
     // Start is called before the first frame update
 
     void Start()
     {
         trail = transform.GetComponent<TrailRenderer>();
         Hand_Control = GameObject.Find("Custom Right Hand Model with Collider").GetComponent<hand>();
+        GameManager = GameObject.Find("GameManager").transform.GetComponent<GameManager>();
         clear_trigger = 0;
         trail.emitting = false;
     }

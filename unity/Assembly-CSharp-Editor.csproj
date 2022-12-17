@@ -307,20 +307,20 @@
     <Reference Include="Unity.VisualScripting.IonicZip">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -712,23 +712,17 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -744,6 +738,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -763,26 +760,29 @@
     <Reference Include="Unity.Services.Core">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    <Reference Include="Unity.Services.Core.Analytics">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
