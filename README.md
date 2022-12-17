@@ -18,12 +18,12 @@
 ## How to run
 1. First, ensure you have Git LFS
    ```
-git lfs install
+   git lfs install
       
     ```
 2. Then, clone this repo
    ```
-git clone https://github.com/jiho-00/Unity_HandTracking_DeepLearning
+   git clone https://github.com/jiho-00/Unity_HandTracking_DeepLearning
       
     ```
 3. All of project files are in unity/Assets. This folder includes all scripts and assets to run the project excluding python files.
