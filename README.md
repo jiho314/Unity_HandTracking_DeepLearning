@@ -46,7 +46,6 @@
     ├── data
       ├── txtfiles
       │   ├── 30categories.txt
-      
     ```
 2. Making train/test datasets
    ```
