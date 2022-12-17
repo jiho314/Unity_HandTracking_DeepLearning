@@ -39,8 +39,7 @@
 
 ## Python
 ### Dataset
-* Google quickdraw dataset
-   * https://quickdraw.withgoogle.com/data/
+* [Google quickdraw dataset](https://quickdraw.withgoogle.com/data/)
 ### How to run
 1. Preparing your datasets
     ```bash
