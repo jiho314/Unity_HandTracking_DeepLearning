@@ -79,7 +79,7 @@ public class Hand_Control : MonoBehaviour
         time_weight = 10f;
         //
         // move_scale = 0.001f;
-        hand_pos_bias = new Vector3(0.5f, -0.2f, 0.5f);
+        hand_pos_bias = new Vector3(0.5f, -0.2f, 0.55f);
         // hand_angle_bias = new Vector3(46f,-277f,188f);
         hand_angle_bias = new Vector3(51.37f,-314.188f,155.298f);
 

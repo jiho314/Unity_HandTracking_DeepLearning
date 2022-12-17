@@ -56,7 +56,7 @@ def PredictSingleImage(net, data):
     return result
 
 def main():
-    os.chdir('C:/Users/USER/Desktop/project/unity_hand/Unity_HandTracking_DeepLearning/python') 
+    os.chdir("C:/git/Unity_HandTracking_DeepLearning/python")
     # Load model
     net = loadCnnModel()
     # Load classname

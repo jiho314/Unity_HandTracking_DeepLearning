@@ -22,7 +22,7 @@ public class drawing_chair : MonoBehaviour
         GameObject GameManager = GameObject.Find("GameManager"); 
         if (GameManager.GetComponent<GameManager>().player_object["ballpoint_pen_black"] == 1){
             load_drawing_scene();
-            DontDestroyOnLoad(GameObject.Find("GameManager"));
+            
         }
         else{
             
@@ -33,9 +33,9 @@ public class drawing_chair : MonoBehaviour
         }
         
     }
+    
 
     void warning_end () {
-
         GameObject.Find("Canvas").transform.Find("warning").gameObject.SetActive(false);  
     }
 

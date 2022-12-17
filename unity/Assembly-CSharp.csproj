@@ -36,49 +36,50 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Room\player.cs" />
+     <Compile Include="Assets\not_used\draw\draw.cs" />
      <Compile Include="Assets\Mainmenu\Scripts\MainMenu.cs" />
-     <Compile Include="Assets\Asset_Library\Detailed ballpoint pens\Sfx\AudioOnCollision.cs" />
-     <Compile Include="Assets\GolemiteGames\TimersMadeEasyLite\Scripts\Timer.cs" />
-     <Compile Include="Assets\ScreenShot Camera\ScreenShot.cs" />
-     <Compile Include="Assets\for_drawing_scene\draw2.cs" />
-     <Compile Include="Assets\GolemiteGames\TimersMadeEasyLite\Scripts\DemoFunctionsForEvents.cs" />
-     <Compile Include="Assets\Hand_Tracking\UDPReceive.cs" />
-     <Compile Include="Assets\manager_game.cs" />
+     <Compile Include="Assets\Asset_library\GolemiteGames\TimersMadeEasyLite\Scripts\Timer.cs" />
+     <Compile Include="Assets\not_used\manager_game.cs" />
      <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\your_answer.cs" />
-     <Compile Include="Assets\question_answer.cs" />
+     <Compile Include="Assets\not_used\timer.cs" />
+     <Compile Include="Assets\Drawing\hand.cs" />
+     <Compile Include="Assets\Asset_library\Detailed ballpoint pens\Sfx\AudioOnCollision.cs" />
+     <Compile Include="Assets\not_used\draw_pen.cs" />
+     <Compile Include="Assets\Drawing\ScreenShot Camera\ScreenShot.cs" />
      <Compile Include="Assets\Room\room_canvas.cs" />
      <Compile Include="Assets\Room\drawing_chair.cs" />
      <Compile Include="Assets\Room\door_exit.cs" />
-     <Compile Include="Assets\for_drawing_scene\hand.cs" />
-     <Compile Include="Assets\timer.cs" />
+     <Compile Include="Assets\Hand_Tracking\UDPReceive.cs" />
+     <Compile Include="Assets\Drawing\draw2.cs" />
      <Compile Include="Assets\Hand_Tracking\Hand_Control.cs" />
-     <Compile Include="Assets\for_drawing_scene\press_button.cs" />
-     <Compile Include="Assets\draw\draw.cs" />
-     <Compile Include="Assets\draw_pen.cs" />
-     <Compile Include="Assets\Room\player.cs" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\GolemiteGames\TimersMadeEasyLite\ReadMe.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Compile Include="Assets\Drawing\press_button.cs" />
+     <Compile Include="Assets\Drawing\AIAnswer.cs" />
+     <Compile Include="Assets\Asset_library\GolemiteGames\TimersMadeEasyLite\Scripts\DemoFunctionsForEvents.cs" />
+     <Compile Include="Assets\Asset_library\_Heathen Engineering\Samples\UX Examples\Flat Icons [Free]\ToggleSetAnimatorBoolean.cs" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Asset_library\_Heathen Engineering\Documentation\UX\Flat Icons [Free]\Read Me.txt" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Asset_library\GolemiteGames\TimersMadeEasyLite\ReadMe.txt" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Asset_library\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -325,11 +326,11 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -703,17 +704,23 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    <Reference Include="Unity.Services.Core.Environments">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -729,9 +736,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -751,29 +755,26 @@
     <Reference Include="Unity.Services.Core">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
         <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\82107\unity_applicationprograming\Unity_HandTracking_DeepLearning\project\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
