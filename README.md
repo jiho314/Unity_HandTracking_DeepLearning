@@ -8,7 +8,7 @@
    
 - Additionally updated without ignore(22.12.16)
 
-- Additional update for unity_build, upgrading server performance (~22.12.22)
+- Additional update for unity_build (~22.12.22)
 
 ## About project
 |1|2|3|4|5|6|
