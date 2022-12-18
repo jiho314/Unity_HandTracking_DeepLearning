@@ -35,7 +35,7 @@
 |Scene name|Scene|Scene|
 |:---:|:---:|:---:|
 |Main|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255480-64118f70-3741-41d5-a52f-b0041259606e.png">|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255542-921e5797-7137-47ed-9618-b318d58c2d47.png">|
-|Room|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255601-4e387590-e1f8-455c-94dc-29131ae1784c.png">|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208281037-6350b391-3f6b-45a5-9afa-8c8c64751f7c.png">|
+|Room|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208255601-4e387590-e1f8-455c-94dc-29131ae1784c.png">|<img width="400" alt="image" src="https://user-images.githubusercontent.com/61443621/208281331-b1af97fd-299b-4eac-b1e3-c756dfb3f7de.png">|
 |Drawing|<img width="400" alt="image" src="https://github.com/jiho-00/Unity_HandTracking_DeepLearning/blob/main/screenshot/drawing.png">|<img width="400" alt="image" src="https://user-images.githubusercontent.com/97828157/208268699-f38d8963-13bc-442f-acaf-93cdef1bc66b.png">
 <!--
 "https://user-images.githubusercontent.com/61443621/208259048-88b252aa-33b9-4f39-9d8f-a219f4024df4.png"
