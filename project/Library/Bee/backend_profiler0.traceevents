@@ -1,0 +1,661 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671722848881963, "dur":2623, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722848884599, "dur":404, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671722848885031, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671722848885057, "dur":553, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671722848885671, "dur":1160, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722848886831, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025088, "dur":249, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025338, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025358, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025388, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025408, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025411, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025422, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025424, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025436, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025438, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025448, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025451, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025461, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025463, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025473, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025475, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025489, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025535, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849025541, "dur":3610, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671722848886325, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848886842, "dur":9314, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848896187, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671722848896189, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848896344, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671722848896347, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848896486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848898325, "dur":6193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671722848904521, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671722848904638, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848904724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848905249, "dur":4159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671722848909777, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1671722848909959, "dur":797, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848910765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848910776, "dur":4581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1671722848915451, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848915569, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848915636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848918129, "dur":3484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848921713, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848921816, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848922128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848922140, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848925490, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848925645, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848925732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848925743, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848930189, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848930366, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848930522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848930533, "dur":9252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848940858, "dur":867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848941725, "dur":617, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848942353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848942364, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848945902, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848945983, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848946346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848946358, "dur":5083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848951525, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848951619, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848951708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848951719, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848955653, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848955923, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848956199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848956212, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848959399, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848959483, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848959586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848959597, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848961742, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848961853, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848961933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848961944, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848964778, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848964873, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848964950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848965075, "dur":4439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848969605, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848969695, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848969774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848969785, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848973092, "dur":1163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848974256, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848974491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848974504, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848976629, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848976969, "dur":552, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848977532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848977587, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848980132, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848980222, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848980309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848980320, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848982912, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848983016, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848983093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848983103, "dur":5333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848988595, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722848988847, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848989127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722848990456, "dur":12948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671722849003497, "dur":756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671722849004262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722849004271, "dur":8993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671722849013453, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1671722849013586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671722849013597, "dur":3944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1671722849017656, "dur":7430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848886330, "dur":517, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848886847, "dur":9330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848896187, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671722848896404, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848896512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848901396, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671722848904568, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671722848904673, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848904750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848906786, "dur":5952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671722848912826, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1671722848912904, "dur":1324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848914278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848914931, "dur":22736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1671722848937881, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848938069, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848938171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848938186, "dur":8207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848946562, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848946657, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848946868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848946889, "dur":6925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848953895, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848954010, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848954105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848954123, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848958310, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848958403, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848958791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848958801, "dur":3774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848962683, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848962765, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848962871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848962883, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848965712, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848965816, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848966234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848966245, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848970197, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848970722, "dur":855, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848971587, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848971597, "dur":4341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848976055, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848976481, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848976731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848976743, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848979405, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848979765, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848979861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848979872, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848982129, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848982215, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848982328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848982339, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848986420, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848986509, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848986585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848986596, "dur":4272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848990980, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848991081, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848991168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848991179, "dur":5952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848997279, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722848997393, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848997482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722848997493, "dur":4151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671722849001741, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1671722849002127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722849002284, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1671722849005609, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1671722849005947, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722849006147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722849006158, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1671722849009696, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1671722849009787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722849009796, "dur":4578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1671722849014463, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1671722849014562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671722849014574, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1671722849017805, "dur":7286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848886377, "dur":479, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848886856, "dur":9319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848896186, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1671722848896342, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848896501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848900580, "dur":6956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1671722848907694, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1671722848907818, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848907888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848907958, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1671722848911595, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1671722848911698, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848911782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848911791, "dur":8250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1671722848920107, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848920169, "dur":474, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848920653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848920793, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848923376, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848923522, "dur":600, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848924134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848924147, "dur":5249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848929551, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848929772, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848929875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848929885, "dur":9435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848939462, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848939588, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848939692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848939708, "dur":6668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848946484, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848946557, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848946837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848946848, "dur":5612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848952568, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848952652, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848953000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848953011, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848956604, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848956663, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848956887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848956897, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848959352, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848959438, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848959848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848959859, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848964039, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848964193, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848964419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848964430, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848968259, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848968339, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848968687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848968698, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848971188, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848971279, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848971366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848971385, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848974652, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848975007, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848975094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848975104, "dur":7886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848983277, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848983370, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848983694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848983704, "dur":5073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848988897, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848988985, "dur":3684, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848992681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848992694, "dur":6593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848999381, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722848999756, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848999833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722848999844, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671722849002419, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671722849002508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722849002518, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671722849004505, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671722849004606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671722849004616, "dur":20349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671722849025036, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1671722849025038, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848886414, "dur":451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848886865, "dur":9327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848896192, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671722848896390, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848896487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848900206, "dur":4387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671722848904683, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671722848904775, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848904853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848905602, "dur":3005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671722848908705, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671722848908793, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848908857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848908906, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671722848911468, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848911586, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848911721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848911729, "dur":41646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848953471, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848953558, "dur":530, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848954100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848954111, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848958099, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848958195, "dur":939, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848959144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848959154, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848962754, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848962857, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848962934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848962945, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848966233, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848966330, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848966554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848966566, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848971288, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848971921, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848972275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848972283, "dur":4904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848977279, "dur":900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848978179, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848978576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848978610, "dur":7241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848985938, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848986024, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848986441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848986453, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848990017, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848990131, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848990553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848990564, "dur":6310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848996965, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722848997048, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848997237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722848997247, "dur":6719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671722849004073, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671722849004182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722849004192, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671722849007139, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671722849007235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722849007246, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671722849010815, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1671722849010906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671722849010916, "dur":8586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1671722849019620, "dur":5472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848886457, "dur":417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848886874, "dur":9315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848896190, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1671722848896455, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848896563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848902507, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1671722848905061, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671722848905153, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848905276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848905609, "dur":5161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671722848910863, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848910960, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848911072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848911474, "dur":25808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848937406, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848937653, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848937830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848937855, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848941706, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848941815, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848942326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848942338, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848946483, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848946592, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848946920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848946930, "dur":7320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848954343, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848954434, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848954511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848954522, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848957228, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848957315, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848957387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848957440, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848960541, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848960626, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848960695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848960748, "dur":4628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848965536, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848965726, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848965880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848965892, "dur":4078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848970058, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848970218, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848970304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848970316, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848974910, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848975388, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848975552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848975565, "dur":5944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848981660, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722848981764, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848981847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722848981858, "dur":19960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671722849001943, "dur":1651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1671722849003604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722849003614, "dur":7493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1671722849011192, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1671722849011392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671722849011403, "dur":8879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1671722849020370, "dur":4688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848886539, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848886888, "dur":9295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848896187, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671722848896425, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848896544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848901452, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671722848906833, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671722848906943, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848907039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848907140, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671722848910291, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1671722848910447, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848910748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848910761, "dur":4752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1671722848915579, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848915641, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848915704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848918104, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848920985, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848921069, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848921143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848921154, "dur":5544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848926858, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848926945, "dur":2093, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848929051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848929064, "dur":11895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848941068, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848941184, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848941399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848941517, "dur":10237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848951847, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848951929, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848951998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848952008, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848954682, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848954763, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848955182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848955193, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848957858, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848957946, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848958015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848958026, "dur":4702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848962898, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848963075, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848963168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848963179, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848965886, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848965980, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848966264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848966275, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848969817, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848969915, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848969999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848970010, "dur":4331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848974457, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848974809, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848974891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848974904, "dur":4120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848979137, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848979562, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848979646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848979658, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848982226, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848982322, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848982401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848982411, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848987125, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848987234, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848987487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848987498, "dur":8797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848996413, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722848996506, "dur":732, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848997248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722848997261, "dur":8201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671722849005562, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1671722849005935, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722849006149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722849006161, "dur":3149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1671722849009399, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1671722849009491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671722849009501, "dur":10128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1671722849019887, "dur":5173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848886498, "dur":383, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848886882, "dur":9306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848896189, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1671722848896401, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848896501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848900490, "dur":5189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1671722848905765, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1671722848905867, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848905987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848907440, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1671722848910798, "dur":1163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848911962, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848912045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848912153, "dur":7791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848920012, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848920072, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848920655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848920849, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848924684, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848924802, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848924885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848924897, "dur":4291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848929319, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848929410, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848929476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848929486, "dur":6901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848936724, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848936932, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848937202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848937215, "dur":6070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848943961, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848944109, "dur":673, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848944793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848944806, "dur":6204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848951103, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848951188, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848951302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848951315, "dur":5838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848957248, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848957331, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848957442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848957453, "dur":4836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848962604, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848962737, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848962867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848962879, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848967005, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848967073, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848967220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848967232, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848970459, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848971283, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848971388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848971399, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848974947, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848975418, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848975724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848975735, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848979136, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848979616, "dur":743, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848980372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848980384, "dur":4598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848985063, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848985146, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848985304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848985317, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848988612, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848988704, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848989012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848989024, "dur":7617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848996803, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722848996931, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848997379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722848997392, "dur":6726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671722849004236, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1671722849004340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722849004352, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1671722849007876, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671722849008201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722849008257, "dur":5313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671722849013666, "dur":1379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671722849015056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671722849015067, "dur":4867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671722849020020, "dur":5041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848886574, "dur":321, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848886895, "dur":9377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848896272, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671722848896524, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848896641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848907118, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671722848909435, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1671722848909517, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848909593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848909605, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1671722848911703, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6).exe" }}
+,{ "pid":12345, "tid":8, "ts":1671722848911793, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848911863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848911871, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6).exe" }}
+,{ "pid":12345, "tid":8, "ts":1671722848915991, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848916077, "dur":1933, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848918023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848918515, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848921826, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848921918, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848922030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848922041, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848926840, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848926931, "dur":1288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848928233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848928247, "dur":10790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848939164, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848939296, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848939412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848939423, "dur":5794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848945327, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848945455, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848945533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848945545, "dur":7620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848954029, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848954876, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848955291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848955303, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848958542, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848958622, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848958905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848958917, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848962015, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848962151, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848962521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848962533, "dur":4152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848966780, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848966870, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848967235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848967247, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848970492, "dur":1717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848972210, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848972457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848972469, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848975310, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848975635, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848975727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848975739, "dur":3406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848979335, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848979766, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848980065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848980076, "dur":5149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848985314, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848985405, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848985484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848985495, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848988672, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848988766, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848989038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848989049, "dur":5201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848994350, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722848994578, "dur":2466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848997056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722848997126, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671722849001220, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1671722849001906, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722849002012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722849003041, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1671722849005434, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1671722849005526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722849005536, "dur":4138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1671722849009836, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1671722849009957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722849009968, "dur":7125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1671722849017187, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1671722849017538, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722849017676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671722849017689, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82107/unity_applicationprograming/Unity_HandTracking_DeepLearning/unity_build/My project (6)_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1671722849020491, "dur":4581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671722849032466, "dur":4108, "ph":"X", "name": "ProfilerWriteOutput" }
+,
