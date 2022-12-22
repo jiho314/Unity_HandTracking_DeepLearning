@@ -14,7 +14,7 @@
 #### Realtime HandTrack
 |1|2|
 |:---:|:---:|
-|![handtrack_demo1](https://user-images.githubusercontent.com/97828157/209090586-d22dedd1-8571-4fcf-96c6-ca18b8a26c27.gif){: width="50%" height="50%"}|![handtrack_demo2](https://user-images.githubusercontent.com/97828157/209091769-d1e3c0c2-1a89-4d73-be76-7232d6778991.gif){: width="50%" height="50%"}|
+|![handtrack_demo1](https://user-images.githubusercontent.com/97828157/209090586-d22dedd1-8571-4fcf-96c6-ca18b8a26c27.gif){: width="50%" height="50%"}{: .center}|![handtrack_demo2](https://user-images.githubusercontent.com/97828157/209091769-d1e3c0c2-1a89-4d73-be76-7232d6778991.gif){: width="50%" height="50%"}{: .center}|
 
 
 #### Game Playing
