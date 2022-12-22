@@ -29,7 +29,7 @@
 
 
 ## Unity
-### How to run
+### How to run (the built game is in the unity_build folder)
 1. First, ensure you have Git LFS.
    ```
    git lfs install  
@@ -54,7 +54,7 @@
 ## Python
 ### Dataset
 * [Google quickdraw dataset](https://quickdraw.withgoogle.com/data/)
-### How to run(the built game is in the unity_build folder)
+### How to run
 1. Preparing your datasets
     ```bash
     ├── data
